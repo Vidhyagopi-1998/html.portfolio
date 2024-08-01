@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .CONTAINER{
+        display: grid;
+        grid-template-columns: 1fr  1fr 1fr;
+    }
+    input{
+        grid-column: span 2;
+        grid-column: gap;
+        width: 300px;
+
+    }
+    .PARENT1
+    {
+        display: grid;
+        grid-template-columns: repeat(7,1fr);
+
+        
+    }
+     a
+    {
+        text-decoration: none;
+    }
+    .parent2
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: lightgray;
+        border: outset;
+        padding: 50px;
+        grid-column-gap: 100px;
+    
+    
+    }
+</style>
+<body>
+    <div CLASS="CONTAINER">
+        <img src="https://www.rogerebert.com/assets/logo/rogerebert-fea9f2c27bcb671adfb84f275757a289ffd85f5370aeffb12f481bf5a3241543.svg" alt="1">
+        
+        <input type="search" placeholder="enter the name of the movie"> 
+
+        
+    </div>
+    <HR>
+    <BR>
+    <div CLASS="PARENT1">
+<a href=""><b></b>MOVIE REVIEW</a>
+<a href=""><b></b>TV STREAMINGS</a>
+<a href=""><b></b>COLLECTIONS</a>
+<a href=""><b></b>JOURNAL </a>
+<a href=""><b></b>GREAT MOVIES</a>
+<a href=""><b></b>INTERVIEW</a>
+<a href="">CONTRIBUTORS</a>
+    </div>
+    <hr>
+    <img src="https://s0.2mdn.net/creatives/assets/4703548/Affinity_EMEA_ArtTheatre_2024_970x250.jpg">
+<br>
+<br>
+<div class="parent2">
+<div class="child1" ><img src="https://s3.amazonaws.com/static.rogerebert.com/uploads/review/primary_image/reviews/d%C3%ACdi-film-review-2024/didire.jpg" width="900px" height="500px">
+</div>
+<div class="child2"><h1>Didi</h1><p>Where there is a will there is a way</p></div>
+  
+</div>
+
+</div>
+</body>
+
+</html>
